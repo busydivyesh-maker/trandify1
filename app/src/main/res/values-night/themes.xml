@@ -1,0 +1,21 @@
+<resources>
+    <style name="Theme.Trendifyy" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_charcoal</item>
+        <item name="colorOnPrimary">@color/primary_on</item>
+        <item name="colorSecondary">@color/accent_coral</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorTertiary">@color/accent_violet</item>
+
+        <item name="android:colorBackground">@color/app_background</item>
+        <item name="colorSurface">@color/app_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorOutline">@color/outline_color</item>
+
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.Trandify1" parent="Theme.Trendifyy" />
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Primary -->
+    <color name="primary_charcoal">#111111</color>
+    <color name="primary_on">#FFFFFF</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_coral">#FF3B5C</color>
+    <color name="accent_coral_light">#FFF0F3</color>
+    <color name="accent_violet">#7C5CFC</color>
+
+    <!-- Background and Surface -->
+    <color name="app_background">#FAFAFA</color>
+    <color name="app_surface">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#6B6B76</color>
+    <color name="price_strikethrough">#A0A0AB</color>
+
+    <!-- Outlines & Borders -->
+    <color name="outline_color">#E8E8EC</color>
+
+    <!-- Status & Badges -->
+    <color name="status_green">#1DB954</color>    <color name="star_yellow">#FFB800</color>
+
+    <!-- Shimmer Skeleton -->
+    <color name="shimmer_color">#E0E0E6</color>
+    <color name="shimmer_highlight">#F5F5FA</color>
+</resources>

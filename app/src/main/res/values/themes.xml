@@ -1,0 +1,75 @@
+<resources>
+    <style name="Theme.Trendifyy" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Brand Colors -->
+        <item name="colorPrimary">@color/primary_charcoal</item>
+        <item name="colorOnPrimary">@color/primary_on</item>
+        <item name="colorSecondary">@color/accent_coral</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorTertiary">@color/accent_violet</item>
+
+        <!-- Background & Surface -->
+        <item name="android:colorBackground">@color/app_background</item>
+        <item name="colorSurface">@color/app_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorOutline">@color/outline_color</item>
+
+        <!-- Window Flags -->
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Material Card Styling -->
+        <item name="materialCardViewStyle">@style/Widget.Trendifyy.Card</item>
+        <item name="materialButtonStyle">@style/Widget.Trendifyy.Button</item>
+        <item name="chipStyle">@style/Widget.Trendifyy.Chip</item>
+    </style>
+
+    <!-- Card Widget Style -->
+    <style name="Widget.Trendifyy.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">@color/app_surface</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/outline_color</item>
+    </style>
+
+    <!-- Button Widget Style -->
+    <style name="Widget.Trendifyy.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">28dp</item>
+        <item name="android:textColor">@color/primary_on</item>
+        <item name="backgroundTint">@color/primary_charcoal</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Chip Widget Style -->
+    <style name="Widget.Trendifyy.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipCornerRadius">20dp</item>
+        <item name="chipBackgroundColor">@color/app_surface</item>
+        <item name="chipStrokeColor">@color/outline_color</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+    <!-- Typography Text Appearances -->
+    <style name="TextAppearance.Trendifyy.Headline" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="TextAppearance.Trendifyy.Price" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Shape Appearances -->
+    <style name="ShapeAppearance.Trendifyy.TopRounded" parent="ShapeAppearance.Material3.Corner.Medium">
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <style name="Theme.Trandify1" parent="Theme.Trendifyy" />
+</resources>
